@@ -13,22 +13,22 @@ import csv
 Va = 6.0 # Armature voltage, V
 Ra = 3.41  # Armature resistance, Ohms
 La = 7.5e-5  # Armature inductance, H
-KF = 6.589e-3  # Back-EMF constant, V x s / rad
-J = 1.0e-7  # Rotor moment of inertia, kg x m^2
-KM = 6.59e-3  # Torque constant, N x m / A
-Tf = 1.3e-4  # Friction torque, N x m
+KF = 6.589e-3  # Back-EMF constant, Vs/rad
+J = 1.0e-7  # Rotor moment of inertia, kgm^2
+KM = 6.59e-3  # Torque constant, Nm/A
+Tf = 1.3e-4  # Friction torque, Nm
 N = 1000  # Number of points in the graph
 
 # Characteristic parameters:
-maxw0 = Va / KF  # Maximum angular speed without the friction torque, rad / s
-maxw = Va / KF - (Tf * Ra) / (KF * KM)  # Maximum angular speed with the friction torque, rad / s
-maxTmag = (Va * KM) / Ra  # Maximum magnetic torque, N x m
+maxw0 = Va / KF  # Maximum angular speed without the friction torque, rad/s
+maxw = Va / KF - (Tf * Ra) / (KF * KM)  # Maximum angular speed with the friction torque, rad/s
+maxTmag = (Va * KM) / Ra  # Maximum magnetic torque, Nm
 maxh = (KM / KF) * (1.0 - ((Ra * Tf) / (Va * KM))**0.5)**2  # Maximum efficiency
 maxPL = (Va**2 * KM) / (4.0 * KF * Ra)  # Maximum power, W
 I0 = Tf / KM  # No-load armature current, A
-TIa = 1.0 / KM  # Torque-to-current coefficient, A/(Nxm)
-Vaw = 1.0 /KF  # Voltage-to-speed coefficient (no load), rad/(Vxs)
-dwdT = Ra / (KF * KM)  # dw/dT slope
+TIa = 1.0 / KM  # Torque-to-current coefficient, A/(Nm)
+Vaw = 1.0 /KF  # Voltage-to-speed coefficient (no load), rad/(Vs)
+dwdT = Ra / (KF * KM)  # dw/dT slope, rad/(sNm)  
 alfa = (maxTmag -Tf) / J  # Maximum angular acceleration (no load), rad/s^2
 print('Maximum speed = ', format(maxw, ".3e"), ' rad/s' )
 print('Maximum torque = ', format(maxTmag, ".3e"), ' Nm')
