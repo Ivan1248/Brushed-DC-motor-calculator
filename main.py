@@ -30,6 +30,7 @@ TIa = 1.0 / KM  # Torque-to-current coefficient, A/(Nm)
 Vaw = 1.0 /KF  # Voltage-to-speed coefficient (no load), rad/(Vs)
 dwdT = Ra / (KF * KM)  # dw/dT slope, rad/(sNm)  
 alfa = (maxTmag -Tf) / J  # Maximum angular acceleration (no load), rad/s^2
+print('Output parameters:')
 print('Maximum speed = ', format(maxw, ".3e"), ' rad/s' )
 print('Maximum torque = ', format(maxTmag, ".3e"), ' Nm')
 print('Maximum efficiency = ', format(maxh * 100, ".3e"), '%')
