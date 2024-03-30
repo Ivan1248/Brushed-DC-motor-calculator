@@ -10,6 +10,7 @@ Features:
   Educational and Practical: Suitable for both educational purposes and real-world applications.
 
 Output files: Speed-to-torque_characteristics.csv, Torque-to-speed_characteristics.csv, Torque-to-power_characteristics.csv, Torque-to-efficiency_characteristics.csv
+
 Output parameters: Maximum speed, Maximum torque, Maximum efficiency, Maximum mechanical power, No-load armature current, Torque-to-current coefficient, Voltage-to-speed coefficient (no load), dw/dT slope, Maximum angular acceleration (no load).
 
 
