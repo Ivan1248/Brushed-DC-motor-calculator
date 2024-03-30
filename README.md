@@ -1,4 +1,4 @@
-This Python console application is designed for calculating the primary characteristics of brushed DC motors.
+This Python console application (main.py) is designed for calculating the primary characteristics of brushed DC motors.
 The generated report in the PDF file provides instructions on how to navigate through datasheets and extract parameters essential for modeling the motor.
 
 Features:
