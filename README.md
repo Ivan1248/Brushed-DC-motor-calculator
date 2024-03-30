@@ -5,9 +5,9 @@ Features:
 
   Data Extraction: Easily extract necessary parameters from motor datasheets.
   
-  Calculation: Compute main characteristics based on extracted parameters.
+  Calculation: Compute main characteristics based on parameters extracted from the motor datasheet.
   
   Educational and Practical: Suitable for both educational purposes and real-world applications.
 
-For more information on formulas and motor calculations, refer to the Maxon Group Formulae Handbook: https://www.maxongroup.com/assets/public/caas/v1/media/219130/data/3baaf2304d150dfcf7215b2348bd3df8/maxon-knowlege-support-academy-pdf-en-download.pdf
+For more information on formulae and motor calculations, refer to the Maxon Group Formulae Handbook: https://www.maxongroup.com/assets/public/caas/v1/media/219130/data/3baaf2304d150dfcf7215b2348bd3df8/maxon-knowlege-support-academy-pdf-en-download.pdf
 
