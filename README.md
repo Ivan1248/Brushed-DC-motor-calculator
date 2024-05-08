@@ -16,3 +16,5 @@ Output parameters: Maximum speed, Maximum torque, Maximum efficiency, Maximum me
 
 For more information on formulae and motor calculations, refer to the Maxon Group Formulae Handbook: https://www.maxongroup.com/assets/public/caas/v1/media/219130/data/3baaf2304d150dfcf7215b2348bd3df8/maxon-knowlege-support-academy-pdf-en-download.pdf
 
+Brushed DC motors for higher temperatures: https://www.maxongroup.com/en-us/knowledge-and-support/blog/maxon-takes-brushed-dc-motors-to-higher-temperatures-69550
+
