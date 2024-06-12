@@ -1,5 +1,5 @@
 This Python console application (main.py) is designed for calculating the primary characteristics of brushed DC motors.
-The generated report in the PDF file provides instructions on how to navigate through datasheets and extract parameters essential for modeling the motor.
+The generated report in "Analysis of datasheets of brushed DC motors.pdf" provides instructions on how to navigate through datasheets and extract parameters essential for modeling the motor.
 
 Features:
 
@@ -18,3 +18,4 @@ For more information on formulae and motor calculations, refer to the Maxon Grou
 
 Brushed DC motors for higher temperatures: https://www.maxongroup.com/en-us/knowledge-and-support/blog/maxon-takes-brushed-dc-motors-to-higher-temperatures-69550
 
+In "DC motors design guide.pdf", the editors of Design World detail the most common DC motor types as well common ways to quantify their output during the design-engineering process.
