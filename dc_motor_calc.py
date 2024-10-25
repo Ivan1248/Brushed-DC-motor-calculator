@@ -112,7 +112,7 @@ Pm = w * Tout  # mechanical power
 h = (KM / KF) * (1.0 - (Ra * Tmag) / (Ua * KM)) * (1.0 - Tf / Tmag)  # efficiency
 
 
-def plot(T, label_to_characteristic, title-"DC motor characteristics"):
+def plot(T, label_to_characteristic, title="DC motor characteristics"):
     # Colors for each characteristic, can be customized further if needed
     colors = plt.cm.tab10(range(len(label_to_characteristic)))
 
@@ -157,7 +157,7 @@ def plot(T, label_to_characteristic, title-"DC motor characteristics"):
 
 plot(
     Tout,
-    characteristics={
+    {
         "Angular speed [rad/s]": (
             w,
             ([0, mn.Tr, mn.Tmax], [mn.wmax, mn.wr, 0]),
@@ -167,5 +167,5 @@ plot(
         "Current [A]": (I, ([0, mn.Tr, mn.Tmax], [mn.I0, mn.Ir, mn.Imax]), None),
         "Efficiency": (h, ([], []), (0, 1)),
     },
-    title=f"DC motor characteristics ({Ua} V)"
+    title=f"DC motor characteristics ({Ua} V)",
 )
